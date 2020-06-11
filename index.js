@@ -16,5 +16,6 @@ const titleCased = () => {
 }
 
 function titlise (tutorial) {
-  array = tutorial.split(" ").map(word => word[1].upcase)
+  let array = []
+  array = tutorial.split(" ").map(word => word[0].upcase)
 }
